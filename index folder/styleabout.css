@@ -1,0 +1,117 @@
+body {
+           font-family: 'Source Sans Pro', sans-serif;
+           background: linear-gradient(to right, #c4b8c4, #edd2d1);
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           justify-content: center;
+           height: 100vh;
+           padding-top: 100px;
+           width: 100%;
+         }
+
+         .navbar {
+	            width: 100%;
+	            background-color: #613442;
+	            position: fixed;
+	            top: 0;
+	            left: 0;
+	            padding: 10px 0;
+							z-index: 100;
+              margin-bottom: 50vh;
+
+	        }
+
+	        .navbar ul {
+	            list-style-type: none;
+	            display: flex;
+	            justify-content: center;
+	            padding: 0;
+	            margin: 0;
+	        }
+
+	        .navbar li {
+	            margin: 0 15px;
+	        }
+
+	        .navbar a {
+	            color: white;
+	            text-decoration: none;
+	            padding: 15px;
+	            display: block;
+	            font-size: 18px;
+	        }
+
+	        .navbar a:hover {
+	            background-color: #443850;
+	            border-radius: 5px;
+	        }
+
+
+	        a {
+	            color: black;
+	            text-decoration: none;
+	            transition: 0.1s;
+	        }
+
+	        a:hover {
+	            text-decoration: underline;
+						}
+
+            .footnav a {
+				color: white;
+				text-decoration: none;
+				padding: 10px;
+				display: block;
+				font-size: 14px;
+		}
+		.footnav ul {
+				list-style-type: none;
+				display: flex;
+				justify-content: center;
+				padding: 0;
+				margin: 0;
+		}
+
+		.footnav {
+		            width: 100%;
+		            background-color: #613442;
+		            bottom: 0;
+		            padding: 10px 0;
+                width: 100vw;
+							}
+
+              .me {
+			width: 350px;
+			margin-left: 7vh;
+			margin-bottom: 30px;
+			float: left;
+			position: relative;
+		}
+
+    .container {
+		width: 700px;
+		margin: 0 auto;
+		margin-right: 20vh;
+    text-align: left;
+		background-color: #F8ECEF;
+  }
+
+		hr {
+			margin: 40px 0;
+			margin-bottom: 30px;
+					width: 101vw;
+				color: #613442;
+		}
+
+    h2 {
+margin-left: 3vh;
+margin-right: 3vh;
+font-size: 20px;
+
+    }
+h1 {
+  margin-top: 15vh;
+  font-family: 'Great Vibes', cursive;
+  font-size: 60px;
+}
